@@ -2,4 +2,9 @@
 .container {
   width: 100%;
   padding: 0px;
+  background:
+}
+
+.jumbotron {
+  height: 400px;
 }
