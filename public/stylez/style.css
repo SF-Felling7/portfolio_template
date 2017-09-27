@@ -4,13 +4,20 @@ header .navbar-default{
   padding: 10px 0;
 }
 
+/*.mainLogo {
+  float: left;
+  width: 100px;
+  height: 55px;
+  margin-bottom: 10px;
+}*/
+
 .main-tab {
   text-align: right;
   margin-top: 20px;
 }
 
 .tabs {
-  padding: 35px;
+  padding: 20px;
   color: white;
 }
 
