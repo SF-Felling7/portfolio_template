@@ -1,18 +1,23 @@
-
-.container {
-  width: 100%;
-  padding: 0px;
-  background:
+header .navbar-default{
+  background: #000;
+  border: none;
+  padding: 10px 0;
 }
 
-.jumbotron {
-  height: 400px;
+.main-tab {
+  text-align: right;
+  margin-top: 20px;
 }
 
-.navBar {
-   list-style-type: none;
-   float: right;
+.tabs {
+  padding: 35px;
+  color: white;
 }
-.navbar li a:hover {
- background-color: #aaa;
- color: #0000;
+
+a {
+  text-decoration: none !important;
+}
+ a:hover {
+  color: #4661BA;
+
+}
