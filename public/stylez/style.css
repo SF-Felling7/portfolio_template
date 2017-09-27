@@ -8,3 +8,11 @@
 .jumbotron {
   height: 400px;
 }
+
+.navBar {
+   list-style-type: none;
+   float: right;
+}
+.navbar li a:hover {
+ background-color: #aaa;
+ color: #0000;
