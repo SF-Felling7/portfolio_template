@@ -24,9 +24,12 @@ a:hover {
 /***************
 Home
 ***************/
-
+.slider .indicators .indicator-item{
+  opacity: 0.4;
+}
 .slider .indicators .indicator-item.active {
   background-color: red;
+  opacity: 0.4;
 }
 
 .caption .right-align h3 {
