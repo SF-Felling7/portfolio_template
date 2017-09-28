@@ -28,3 +28,7 @@ Home
 .slider .indicators .indicator-item.active {
   background-color: red;
 }
+
+.caption .right-align h3 {
+  color: #000;
+}
