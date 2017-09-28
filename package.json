@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SF-Felling7/portfolio_template/issues"
   },
-  "homepage": "https://github.com/SF-Felling7/portfolio_template#readme"
+  "homepage": "https://github.com/SF-Felling7/portfolio_template#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
 }
