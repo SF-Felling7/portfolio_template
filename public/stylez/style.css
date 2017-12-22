@@ -11,11 +11,13 @@ Navbar
 }
 .brand-logo {
   margin-left: 150px;
-  color: #1E90FF;
+  color: #1E90FF !important;
+  font-family: Georgia;
 }
 
 .nav-wrapper ul {
   margin-right: 150px;
+
 }
 
 a:hover {
