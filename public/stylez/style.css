@@ -5,7 +5,9 @@ General
 /***************
 Navbar
 ***************/
-
+nav {
+  height: 120px;
+}
 .nav-wrapper{
   background: #D3D3D3;
 }
