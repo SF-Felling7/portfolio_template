@@ -7,7 +7,7 @@ Navbar
 ***************/
 
 .nav-wrapper{
-  background: #000;
+  background: #D3D3D3;
 }
 .brand-logo {
   margin-left: 150px;
@@ -18,7 +18,7 @@ Navbar
 }
 
 a:hover {
-  color: red;
+  color: #1E90FF;
 }
 
 /***************
