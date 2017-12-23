@@ -5,20 +5,31 @@ General
 /***************
 Navbar
 ***************/
+nav {
+  height: 120px;
+}
 
 .nav-wrapper{
-  background: #000;
+  background: #D3D3D3;
 }
-.brand-logo {
-  margin-left: 150px;
+
+.felling-logo {
+  margin-left: 40px;
+}
+
+.brand-logo{
+  margin-left: 5px;
+  color: #1E90FF !important;
+  font-family: Georgia;
 }
 
 .nav-wrapper ul {
   margin-right: 150px;
+  margin-top: 45px;
 }
 
 a:hover {
-  color: red;
+  color: #1E90FF;
 }
 
 /***************
@@ -35,3 +46,7 @@ Home
 .caption .right-align h3 {
   color: #000;
 }
+
+/********************
+ABOUT
+*********************/
