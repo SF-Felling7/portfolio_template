@@ -26,6 +26,11 @@ nav {
 .nav-wrapper ul {
   margin-right: 150px;
   margin-top: 45px;
+  font-family: Georgia;
+}
+
+h3, h5 {
+  font-family: Georgia;
 }
 
 a:hover {
