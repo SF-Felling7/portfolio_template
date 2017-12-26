@@ -22,9 +22,6 @@ nav {
   margin-left: 5px;
   color: #1E90FF !important;
   font-family: Georgia;
-  position: absolute;
-  display: inline-block;
-  padding: 0;
 }
 
 .nav-wrapper ul {
