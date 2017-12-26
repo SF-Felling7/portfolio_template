@@ -29,6 +29,11 @@ nav {
   font-family: Georgia;
 }
 
+.side-nav li>a, .dropdown-content li>span {
+  color: #1E90FF !important;
+  font-family: Georgia;
+}
+
 h2, h3, h5 {
   font-family: Georgia;
 }
