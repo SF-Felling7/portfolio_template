@@ -46,13 +46,17 @@ a:hover {
 /***************
 Home
 ***************/
+.indicators {
+  top:370px;
+}
+
 .slider .indicators .indicator-item{
   opacity: 0.4;
 }
 
 .slider .indicators .indicator-item.active {
   background-color: #1E90FF;
-  opacity: 0.4;
+  opacity: 20;
 }
 
 .caption .right-align h3 {
