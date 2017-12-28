@@ -1,6 +1,21 @@
+
 /***************
 General
 ***************/
+* {
+  font-family: Georgia;
+
+}
+
+section::before, section::after {
+  pointer-events: none;
+  overflow: hidden;
+  display: block;
+  content: " ";
+  margin-top: -10px;
+  height: 5px;
+  visibility: hidden;
+}
 
 /***************
 Navbar
@@ -32,11 +47,7 @@ nav {
 
 .side-nav li>a, .dropdown-content li>span {
   color: #1E90FF !important;
-  font-family: Georgia;
-}
 
-h2, h3, h5 {
-  font-family: Georgia;
 }
 
 a:hover {
@@ -46,6 +57,7 @@ a:hover {
 /***************
 Home
 ***************/
+
 .indicators {
   top:370px;
 }
@@ -64,7 +76,42 @@ Home
 }
 
 /********************
-ABOUT
+WHAT WE DO
+*********************/
+
+.section-heading {
+  text-align: center;
+  color: #1E90FF;
+}
+
+.aboutInfo {
+  font-size: 1.17em ; 
+}
+
+.divider {
+  width: 100%;
+  padding-bottom: 25px;
+  background-color: white;
+}
+
+.divider:after {
+  content: "";
+  background: #337ab7;
+  position: relative;
+  height: 4px;
+  width: 300px;
+  display: block;
+  text-align: center;
+  margin: 13px auto;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+
+/********************
+FOOTER
 *********************/
 
 .fellingFooter {
