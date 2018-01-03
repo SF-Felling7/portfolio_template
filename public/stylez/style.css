@@ -96,7 +96,7 @@ WHAT WE DO
 
 .divider {
   width: 100%;
-  padding-bottom: 25px;
+  padding-bottom: 65px;
   background-color: white;
 }
 
@@ -115,6 +115,7 @@ WHAT WE DO
   -o-border-radius: 5em;
   border-radius: 5em;
 }
+
 
 /********************
 FOOTER
