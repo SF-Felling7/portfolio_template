@@ -7,7 +7,7 @@ General
 
 }
 
-section::before, section::after {
+/*section::before, section::after {
   pointer-events: none;
   overflow: hidden;
   display: block;
@@ -15,7 +15,7 @@ section::before, section::after {
   margin-top: -10px;
   height: 5px;
   visibility: hidden;
-}
+}*/
 
 /***************
 Navbar
@@ -58,49 +58,29 @@ a:hover {
 Home
 ***************/
 
-.indicators {
-  top:370px;
+
+.caption-top{
+  padding-top: 45px;
+  padding-left: 45px;
 }
 
-.slider .indicators .indicator-item{
-  opacity: 0.4;
-}
-
-.slider .indicators .indicator-item.active {
-  background-color: #1E90FF;
-  opacity: 20;
-}
-
-.caption .right-align h3 {
-  color: #000;
+.caption-middle {
+  padding-top: 23px;
+  padding-left: 105px;
 }
 
 /********************
 WHAT WE DO
 *********************/
 
-.whatWeDoSection {
-}
 
-
-.section-heading {
-  text-align: center;
-  color: #1E90FF;
-  /*font-size: 2.625em;*/
-}
-
-.aboutInfo {
-  font-size: 1.17em ;
-  color: #1E90FF;
-}
-
-.divider {
+/*.divider {
   width: 100%;
   padding-bottom: 65px;
   background-color: white;
-}
+}*/
 
-.divider:after {
+/*.divider:after {
   content: "";
   background: #337ab7;
   position: relative;
@@ -114,7 +94,7 @@ WHAT WE DO
   -ms-border-radius: 5em;
   -o-border-radius: 5em;
   border-radius: 5em;
-}
+}*/
 
 
 /********************
