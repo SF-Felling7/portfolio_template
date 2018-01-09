@@ -4,7 +4,10 @@ General
 ***************/
 * {
   font-family: Georgia;
+}
 
+section {
+  padding-bottom: 25px;
 }
 
 /*section::before, section::after {
@@ -72,6 +75,7 @@ Home
 /********************
 WHAT WE DO
 *********************/
+
 .SecTwoHeading {
   color: #1E90FF;
   text-align: center;
@@ -98,7 +102,7 @@ WHAT WE DO
   border-radius: 5em;
 }
 
-.boxed {
+.box1 {
    border: 1px;
    border-color: none;
    background-color: #D3D3D3;
