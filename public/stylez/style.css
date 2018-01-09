@@ -72,17 +72,19 @@ Home
 /********************
 WHAT WE DO
 *********************/
+.SecTwoHeading {
+  color: #1E90FF;
+  text-align: center;
+}
 
-
-/*.divider {
+.divider {
   width: 100%;
   padding-bottom: 65px;
-  background-color: white;
-}*/
+}
 
-/*.divider:after {
+.divider:after {
   content: "";
-  background: #337ab7;
+  background-color: #1E90FF;
   position: relative;
   height: 4px;
   width: 300px;
@@ -94,7 +96,18 @@ WHAT WE DO
   -ms-border-radius: 5em;
   -o-border-radius: 5em;
   border-radius: 5em;
-}*/
+}
+
+.boxed {
+   border: 1px;
+   border-color: none;
+   background-color: #D3D3D3;
+   color: #1E90FF;
+   width: 500px;
+   padding: 25px;
+   margin: 25px;
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
 
 
 /********************
