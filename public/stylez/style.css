@@ -2,13 +2,19 @@
 /***************
 General
 ***************/
+body {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   font-family: Georgia;
 }
 
 section {
-  padding-bottom: 25px;
+
 }
+
 
 /*section::before, section::after {
   pointer-events: none;
@@ -78,13 +84,18 @@ WHAT WE DO
 
 #whatWeDo {
   margin: 0;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/xzhngNt/blurred-office-moving-background_rspzksh__F0000.png');
+  background-size: cover;
 }
 
 .SecTwoHeading {
+  padding-top: 5px;
   color: #1E90FF;
   text-align: center;
 }
-/* 
+
+
+/*
 .divider {
   width: 100%;
   padding-bottom: 65px;
@@ -122,9 +133,3 @@ WHAT WE DO
 /********************
 FOOTER
 *********************/
-
-.fellingFooter {
-  background-color: #D3D3D3;
-  height: 200px;
-  margin: 0;
-}
